@@ -15,6 +15,7 @@ if (app.activeDocument.layers.length > 0) {
 
             cssStyles += "#"+ layerName + " {\n" +
             "    background-image: url('../media/images/" + layerName + ".png');\n" +
+            "    background-size: " + width + "px " + height + "px;\n" +
             "    left: " + left + "px;\n" +
             "    top: " + top + "px;\n" +
             "    width: " + width + "px;\n" +
